@@ -33,7 +33,7 @@ body {
 	padding: 0 2rem 2rem;
 }
 
-.heading {
+.heading, .info {
 	font-size: 4rem;
 	font-weight: 500;
 	line-height: 1.5;
@@ -72,6 +72,10 @@ body {
 
 .gallery-image:hover {
 	transform: scale(1.15);
+}
+
+.info {
+	font-size: 2rem;
 }
 
 /*
@@ -119,9 +123,11 @@ a {
     background-color: pink;
   }
 
-  /* STYLES SPECIFIC TO FOOTER  */
 
 
+
+
+  /* footer  */
 .footer {
     width: 100vw;
     background-color: #070617;
@@ -142,7 +148,7 @@ a {
     font-size: 12px;
     line-height: 17px;
     padding: 20px 0px 5px 0px;
-    color: rgba(255,255,255,0.2);
+    color: pink;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 0.250em;
